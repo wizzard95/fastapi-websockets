@@ -11,6 +11,11 @@ pip install uvicorn
 4.- instalar web sockets:
 pip install websockets
 
-5.- invocar el archivo requirements.txt que contendra
+* (se debera invocar cada vez que se instale una dependencia con pip)5.- invocar el archivo requirements.txt que contendra
 las dependencias necesarias para que funcione la app
 pip freeze > requirements.txt
+
+6.- creamos el archivo .gitignore para proyecto fastapi (chat ia vscode)
+
+7.- instalar template para consumir el websocket
+pip install jinja2 -> paso 5
