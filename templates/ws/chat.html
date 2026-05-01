@@ -18,7 +18,7 @@
     </ul>
     <!-- 9.- logica para los obtener y enviar mensajes-->
     <script>
-        var ws = new WebSocket("ws://localhost:8000/ws");
+        var ws = new WebSocket("ws://localhost:8000/ws/5");
         ws.onmessage = function(event){
             var messages = document.getElementById('messages')
             var message = document.createElement('li')
